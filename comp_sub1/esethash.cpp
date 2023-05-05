@@ -111,9 +111,8 @@ int main()
 
     printf("hash1:\t");
     print_buffer(hash, 20);
-    memcpy(fin_hash + 20, hash, 20);
+    memcpy(fin_hash + 20, hash, 32 - 20);
 
     printf("combined hash:\t");
-    print_buffer(fin_hash, 40);
+    print_buffer(fin_hash, 32);
 }
-
