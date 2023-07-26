@@ -1,4 +1,4 @@
-Cracker7525's Very Hard Crackme
+**Cracker7525's Very Hard Crackme**
 
 https://crackmes.one/crackme/64a0841c33c5d460c17f1f6d
 
@@ -87,15 +87,14 @@ If we take a cursory look at sub_140011140, it appears to do the base64 decoding
 presumably putting the result in a buffer pointed to by var_278.
 
 Since that's what we expect to happen, we'll just take it at face value for now that's what it does.
-The presumed base64 decoded password gets passed to another program:
+The presumed base64 decoded password gets passed to another function:
 
 ```
 .text:00000001400172DD                 lea     rcx, [rbp+3D0h+var_278]
 .text:00000001400172E4                 call    sub_1400110B4
 ```
 
-Which kind of looks like a string constructor or similar based on the ways it and some other functions dealing with the return error out.
-One of them can give an out of bounds error. All of them appear to be library functions just from the layout and reference to source files in error messages.
+Which kind of looks string library related. All of them appear to be library functions just from the layout and reference to source files in error messages.
 
 This would be a good time to hop over into a debugger and start verifying some of our assumptions.
 We can open it in x64dbg, and let it run passing exceptions until it reaches the password prompt.
