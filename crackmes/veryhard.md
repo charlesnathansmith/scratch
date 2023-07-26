@@ -1,8 +1,8 @@
-**Cracker7525's Very Hard Crackme**
+## Cracker7525's Very Hard Crackme
 
 https://crackmes.one/crackme/64a0841c33c5d460c17f1f6d
 
-# Challenge
+## Challenge
 64-bit console application
 No apparent packing or obfuscation
 
@@ -19,7 +19,7 @@ Wrong password! You failed the crackme test.
 Or just crash the program.
 Validly encoded base64 answers may crash or give the "Wrong password" message with no apparent pattern.
 
-# Diving in
+## Diving in
 String search in IDA reveals the following code addresses making interesting references:
 
 ```
@@ -262,7 +262,7 @@ if (iStack_348 == 0x7e7) {
 
 Yep.  We have to set our system date to a particular value to control the buffer size.
 
-# The Buffer Size Problem
+## The Buffer Size Problem
 
 The first question is can we just make buf_size = 0? That would skip the verification loop entirely.
 
@@ -323,7 +323,7 @@ The other days of the year map to one of the same buffer sizes and so are irrele
 
 It appears we are going to have to generate a massive password that base64 decodes into something that passes the verification char by char.
 
-# Examining the validation loop
+## Examining the validation loop
 
 Let's look at how base64 encoding works.
 
@@ -410,7 +410,7 @@ Not with base64 digits as inputs, at least.
 
 Let's look at how the decoding function handles '=' padding and non-base64 characters.
 
-# Diving deeper
+## Diving deeper
 
 We can go back and break on the call to base64 decode and start feeding in malformed inputs to see what comes out.
 I've gone ahead and renamed everything here by this point for clarity:
@@ -461,4 +461,4 @@ then we could easily generate a working password without issue, but unfortunatel
 
 I'm stuck at this point.  I haven't thoroughly fuzzed or reverse engineered the base64 decoding function to make sure there isn't some other anomalous behavior that would be exploitable, but I've thrown quite a bit at it and don't see a way forward there.
 
-The way the decoded string is copied with memcpy is odd now that I look back at it.  It's just copying raw bytes from one string buffer over into another one, including the size information.  We could maybe put a pointer in the beginning of the buffer, and tell it a size large enough to require an allocated buffer, then have the comparison operate on arbitrary data, like a large empty page.
+The memcpy of the decoded string seems odd and maybe deserve a second look as well.
