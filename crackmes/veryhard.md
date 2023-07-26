@@ -94,7 +94,7 @@ The presumed base64 decoded password gets passed to another function:
 .text:00000001400172E4                 call    sub_1400110B4
 ```
 
-Which kind of looks string library related. All of them appear to be library functions just from the layout and reference to source files in error messages.
+Which gets a pointer the the decoded string buffer.
 
 This would be a good time to hop over into a debugger and start verifying some of our assumptions.
 We can open it in x64dbg, and let it run passing exceptions until it reaches the password prompt.
@@ -459,5 +459,6 @@ We can generate null decoded strings easily with password inputs like "A=abcedfg
 If we knew what the string's memory from the beginning of it's buffer out to 2530 bytes looked like,
 then we could easily generate a working password without issue, but unfortunately we run into dynamic data after around 238 bytes.
 
-I'm stuck at this point.  I haven't thoroughly fuzzed or reverse engineered the base64 decoding function to make sure there isn't some other anomalous behavior that would be exploitable,\
-but I've thrown quite a bit at it and don't see a way forward there.
+I'm stuck at this point.  I haven't thoroughly fuzzed or reverse engineered the base64 decoding function to make sure there isn't some other anomalous behavior that would be exploitable, but I've thrown quite a bit at it and don't see a way forward there.
+
+The way the decoded string is copied with memcpy is odd now that I look back at it.  It's just copying raw bytes from one string buffer over into another one, including the size information.  We could maybe put a pointer in the beginning of the buffer, and tell it a size large enough to require an allocated buffer, then have the comparison operate on arbitrary data, like a large empty page.
