@@ -63,6 +63,8 @@ VOID Instruction(INS ins, VOID* v)
 
 VOID finished(INT32 code, VOID* v)
 {
+    logfile << "\nAddress\tcount\tlast_seen\tAPI name if first instruction" << std::endl;
+
     for (auto& e : ins_counts)
     {
         logfile << std::hex << e.first << '\t' << std::dec << e.second.count << '\t' << e.second.last_seen;
@@ -70,7 +72,7 @@ VOID finished(INT32 code, VOID* v)
         auto& it = api_map.find(e.first);
 
         if (it != api_map.end())
-            logfile << "\t" << it->second;
+            logfile << "\t\t" << it->second;
 
         logfile << std::endl;
     }
