@@ -31,22 +31,14 @@ struct OPTN_head
 {
     chunk_head head;
     uint32_t Unknown1[2], InfoFlags, Unknown2[12];
-    uint32_t AddressCount;
+    uint32_t NumConstants;
+};
+
+struct OPTN_listitem
+{
+    uint32_t Name, Value;
 };
 #pragma pack(pop)
-
-char ascii_chunk_names[25][5] =
-    { "FORM", "GEN8", "OPTN", "LANG", "EXTN", "SOND", "AGRP", "SPRT",
-     "BGND", "PATH", "SCPT", "GLOB", "SHDR", "FONT", "TMLN", "OBJT",
-     "ROOM", "DAFL", "TPAG", "CODE", "VARI", "FUNC", "STRG", "TXTR", "AUDO" };
-
-std::set<uint32_t> chunk_names;
-
-void setup_chunk_names()
-{
-    for (size_t i = 0; i < 25; i++)
-        chunk_names.insert(*((uint32_t*)ascii_chunk_names[i]));
-}
 
 // Convert chunk Name field into printable string
 std::string chunk_head::name_str()
@@ -112,7 +104,6 @@ int main(int argc, char **argv)
     // Intro
     std::cout << "Parsing data file (all values in hex)\nFile size:\t" << std::hex << data_size << '\n';
     size_t pos = 0;
-    setup_chunk_names();
 
     // Read FORM chunk
     chunk_head form;
@@ -179,27 +170,17 @@ int main(int argc, char **argv)
     for (size_t i = 0; i < 12; i++)
         std::cout << optn.Unknown2[i] << ' ';
 
-    std::cout << "\nConstantMap\n\tAddressCount:\t" << optn.AddressCount << '\n';
-    std::cout << "\tAddresses:\n";
+    std::cout << "\nConstantMap\n\tSize:\t" << optn.NumConstants << '\n';
+    std::cout << "\tElements:\n";
 
-    for (size_t i = 0; i < optn.AddressCount; i++)
+    for (size_t i = 0; i < optn.NumConstants; i++)
     {
-        uint32_t address;
-        data.read((char*)&address, sizeof(address));
-        pos += sizeof(address);
+        OPTN_listitem item;
+        data.read((char*)&item, sizeof(item));
+        pos += sizeof(item);
 
-        std::cout << "\t\t" << address << '\t' << data_string(data, address) << '\n';
-    }
-
-    std::cout << "\n\tValues:\n";
-
-    for (size_t i = 0; i < optn.AddressCount; i++)
-    {
-        uint32_t address;
-        data.read((char*)&address, sizeof(address));
-        pos += sizeof(address);
-
-        std::cout << "\t\t" << address << '\t' << data_string(data, address) << '\n';
+        std::cout << "\t\tName:\t" << item.Name << "\t" << data_string(data, item.Name) << '\n';
+        std::cout << "\t\tValue:\t" << item.Value << "\t" << data_string(data, item.Value) << "\n\n";
     }
 
     return 0;
