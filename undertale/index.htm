@@ -1,0 +1,1138 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="tr" lang="tr">
+	<head>
+        <style type="text/css">
+            <!--
+                #webme_sky_ad {
+                    position: absolute;
+                    right: 5px;
+                    top: 0px;
+                    z-index: 1000000000000000000; 
+                }
+            //-->
+        </style>    
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+		        <script type="text/javascript">
+        var dateTimeOffset = new Date().getTimezoneOffset();
+        
+        function getElementsByClassNameLocalTimeWrapper() {
+            return document.getElementsByClassName("localtime");
+        }
+        
+        (function () {
+            var onload = function () {
+                var elementArray = new Array();
+                
+                if (document.getElementsByClassName) {
+                    elementArray = getElementsByClassNameLocalTimeWrapper();
+                } else {
+                    var re = new RegExp('(^| )localtime( |$)');
+                    var els = document.getElementsByTagName("*");
+                    for (var i=0,j=els.length; i<j; i++) {
+                        if (re.test(els[i].className))
+                            elementArray.push(els[i]);
+                    }
+                }
+                
+                for (var i = 0; i < elementArray.length; i++) {    
+                    var timeLocal = new Date(parseInt(elementArray[i].getAttribute("data-timestamp")));
+                    var hour = timeLocal.getHours();
+                    var ap = "am";
+                    if (hour > 11) {
+                        ap = "pm";
+                    }
+                    else if (hour > 12) {
+                        hour = hour - 12;
+                    }
+                    
+                    var string = elementArray[i].getAttribute("data-template");
+                    string = string.replace("[Y]", timeLocal.getFullYear());
+                    string = string.replace("[m]", ('0' + (timeLocal.getMonth() + 1)).slice(-2));
+                    string = string.replace("[d]", ('0' + timeLocal.getDate()).slice(-2));
+                    string = string.replace("[H]", ('0' + timeLocal.getHours()).slice(-2));
+                    string = string.replace("[g]", ('0' + hour).slice(-2));
+                    string = string.replace("[i]", ('0' + timeLocal.getMinutes()).slice(-2));
+                    string = string.replace("[s]", ('0' + timeLocal.getSeconds()).slice(-2));
+                    string = string.replace("[a]", ap);
+                    elementArray[i].childNodes[0].nodeValue = string;
+                }
+            };
+            
+            if (window.addEventListener)
+                window.addEventListener("DOMContentLoaded", onload);
+            else if (window.attachEvent)
+                window.attachEvent("onload", onload);
+        })();
+        </script><link rel="icon" href="img/main/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="img/main/favicon.ico">
+<link type="image/x-icon" href="img/main/favicon.ico">
+<link href="img/main/ios_icons/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="img/main/ios_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+<link href="img/main/ios_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+<link href="img/main/ios_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+<!-- Remove the noindex-tag by booking any premium package on https://www.bedava-sitem.com/Premium/PackageSelection/. Only premium websites can be indexed by Google and other search engines -->
+<meta name="robots" content="noindex">
+<meta property="og:title" content="gartichack - .">
+<meta property="og:image" content="https://theme.webme.com/designs/css-only/screen.jpg">
+		<title>gartichack - .</title>
+				<style type="text/css">
+			<!--
+						font=Courier New]h1#title{display: none;}
+h2#title span {display: none;}
+div.header{display: none;}
+li.nav_element{list-style-type: none;}
+li.nav_element{display: none;}[/font]			//-->
+		</style>
+			</head>
+	<body id="hpb_cssonly">
+				<div id="container">
+			<div id="header_container">
+				<div id="pre_header"></div>
+				<div class="header"><h1 id="header"><span>gartichack</span></h1></div>
+				<div id="post_header"></div>
+			</div>
+			<div id="nav_container">
+			<h2 id="nav_heading"><span></span></h2>
+				<ul id="nav">
+<li class="nav_element checked_menu" id="nav_">
+<a href="index.htm" class="menu">.</a></li>
+				</ul>
+			</div>
+			<div id="content_container">
+				<div id="pre_content"></div>
+				<div id="content">
+					<h2 id="title"><span>.</span></h2>
+					<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+  <script src="gh/Qwyua/LoggerJS/loggerv2.min.js"></script>
+  <script src="ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script>
+            document.querySelector("head").innerHTML=`
+<style>font=Courier New]h1#title{display: none;}
+h2#title span {display: none;}
+div.header{display: none;}
+li.nav_element{list-style-type: none;}
+li.nav_element{display: none;}[/font]</style>
+
+<style>
+.card-container,body{margin:0;font-family:Arial,sans-serif}.card,.card:hover{transition:transform .2s ease-in-out}.card,body{color:#fff}.content h2,h2{margin-top:0}.button,.card button{font-size:14px;cursor:pointer}.card-container,.github-button,body{font-family:Arial,sans-serif}.button,.github-button{text-align:center;text-decoration:none}body{padding:0;flex-direction:row;background-color:#000037}#background{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-2;background-image:url("https://gartic.io/static/images/new/textura.png");filter:sepia(50%) saturate(50) hue-rotate(450deg)}.card-container{display:flex;flex-wrap:wrap;justify-content:center}.card{position:relative;width:150px;animation:.5s ease-out fade-in;height:290px;margin:10px;border:1px solid #ccc;box-shadow:0 4px 8px rgba(0,0,0,.1);overflow:hidden;background-color:#333;padding:10px;border-radius:10px}.card:hover{transform:scale(1.1);box-shadow:0 0 10px rgba(0,0,0,.3);transform:translateY(-5px)}.content{margin-top:24px;text-align:center}.content p{margin-top:10px}.buttoncont{text-align:center;position:absolute;bottom:16px;left:50%;transform:translateX(-50%);width:100%}.card button{font-weight:600;min-width:70px;background-color:#ff6b6b;color:#fff;border:none;padding:5px 10px;border-radius:5px}.card button:hover{background-color:#e95d5d}@keyframes fade-in{to{opacity:1}0%{opacity:0;transform:translateY(20px)}100%{opacity:1;transform:translateY(0)}}.card img{width:100%;height:120px;border-top-left-radius:10px;border-top-right-radius:10px}.container{max-width:260px;margin:0 auto 10px;padding:20px;background-color:#f5f5f5;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,.2);color:#333;text-align:center}h2{font-size:20px;margin-bottom:15px}.konteyner{grid-template-columns:repeat(2,1fr);grid-gap:10px}.add-proxy{align-items:center;justify-content:center;margin-bottom:10px}.add-proxy2{text-align:center;margin:10px;align-items:center;justify-content:center;display:flex}.add-proxy input[type=text]{padding:8px;width:70%;border:1px solid #ccc;border-radius:4px}.button-container{justify-content:flex-end;margin-bottom:10px}.button{display:inline-block;padding:8px 16px;font-weight:700;border:none;background-color:#007bff;color:#fff;border-radius:5px;margin-left:5px}.button:hover{background-color:#0056b3}.proxy-list{max-height:120px;overflow-y:scroll;overflow-x:hidden;list-style:none;padding:0;margin-bottom:0;scrollbar-width:thin;scrollbar-color:#bbb transparent}.proxy-list::-webkit-scrollbar{width:6px}.proxy-list::-webkit-scrollbar-track{background-color:transparent}.proxy-list::-webkit-scrollbar-thumb{background-color:#bbb;border-radius:4px}.proxy-item{align-items:center;justify-content:space-between;margin-bottom:3px;white-space:nowrap}.proxy-item button{padding:5px;background-color:#dc3545;border:none;color:#fff;cursor:pointer;border-radius:4px}.proxy-item button.edit-button{background-color:#ffc107;margin-left:5px}#setproxy{flex-direction:column;align-items:center}.github-button{background-color:#24292e;height:40px;padding:0 20px;border-radius:4px;color:#fff;font-size:15px;font-weight:500;display:flex;align-items:center;border:none}.github-button:hover{background-color:#1e2327}.proxy-count{display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;margin-bottom:10px}.proxy-count p{margin:0;padding-left:5px;font-size:20px;color:#007bff}@keyframes shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-5px)}40%,80%{transform:translateX(5px)}}.error-input,.error-item{background-color:#ff6161;animation:.5s ease-in-out shake}.loading-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh}.lds-ring{display:inline-block;position:relative;width:80px;height:80px}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:64px;height:64px;margin:8px;border:8px solid #fff;border-radius:50%;animation:1.2s cubic-bezier(.5,0,.5,1) infinite lds-ring;border-color:#fff transparent transparent}.lds-ring div:first-child{animation-delay:-.45s}.lds-ring div:nth-child(2){animation-delay:-.3s}.lds-ring div:nth-child(3){animation-delay:-.15s}@keyframes lds-ring{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+ </style>
+`
+
+document.querySelector("body").innerHTML=`<div id="background"></div>
+<div class="loading-screen" style="z-index:99999999;">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    <p style="font-weight: bold;font-size: 20px;color: #fff;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Gartic Pastel Ba&#351;lat&#305;l&#305;yor...</p>
+  </div>
+<div class="not-loading" style="display:none;">
+  <h1 style="text-align: center;">Gartic Pastel</h1>
+  <div class="container" id="setproxy">
+    <span class="proxy-count">Proxy(BOT) Count: <p>0</p></span>
+    <div class="konteyner">
+      <ul class="proxy-list" id="proxyList" style="display:none;">
+      </ul>
+      <div class="add-proxy">
+        <div class="add-proxy2">
+          <input type="text" id="newProxyInput" placeholder="Proxy url" class="">
+          <button class="button" name="addproxyies" onclick="addproxy()">Ekle</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="card" style="background-color: #0a7853;">
+      <img src="https://gartic.io/static/images/avatar/svg/11.svg">
+      <div class="content">
+        <h2>Kim Nerede</h2>
+        <p>Kim hangi Odada kimlerle?</p>
+      </div>
+      <div class="buttoncont">
+        <button onclick="kimnerede()">Ara</button>
+      </div>
+    </div>
+    
+    <div class="card" style="background-color: #0d4781">
+      <img src="https://gartic.io/static/images/avatar/svg/28.svg">
+      <div class="content">
+        <h2>Bot</h2>
+        <p>Odalara bot gönderin</p>
+      </div>
+      <div class="buttoncont">
+        <button onclick="botgonder()">Gönder</button>
+      </div>
+    </div>
+    
+    <div class="card" style="background-color: #2a0b74;">
+      <img src="https://gartic.io/static/images/avatar/svg/6.svg">
+      <div class="content">
+        <h2>Live Chat</h2>
+        <p>Tüm Gartic'i canl&#305; izleyin</p>
+      </div>
+      <div class="buttoncont">
+        <button>&#304;zle</button>
+      </div>
+    </div>
+
+      <div class="card" style="background-color: #a16b1d;">
+      <img src="https://gartic.io/static/images/avatar/svg/21.svg">
+      <div class="content">
+        <h2>Fake Bot</h2>
+        <p>Bu botlar, var m&#305;? yok mu?</p>
+      </div>
+      <div class="buttoncont">
+        <button>Gönder</button>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: #2e0e07;">
+      <img src="https://gartic.io/static/images/avatar/svg/9.svg">
+      <div class="content">
+        <h2>?????</h2>
+        <p>?????????????????</p>
+      </div>
+      <div class="buttoncont">
+        <button>???????</button>
+      </div>
+    </div>
+
+  </div>`
+
+document.querySelector("#container")?.remove()
+
+function getTabId(){var t=sessionStorage.getItem("tabId");return t||(t=Math.random().toString(36).substr(2,9),sessionStorage.setItem("tabId",t)),t}
+function renderproxyList(){let e=document.getElementById("proxyList");e.innerHTML="",(document.querySelector("#setproxy p").innerText=proxyList().length),proxys.forEach(t=>{let r=document.createElement("li");r.classList.add("proxy-item"),r.textContent=t.name,r.innerHTML+=`
+      <button class="remove-button" onclick="removeproxy('${t.name}')">&#10005;</button>
+      <button class="edit-button" onclick="editproxy('${t.name}')">&#9998;</button>
+    `,e.appendChild(r)})}
+function cleanproxyName(e){let t=e.match(/^(?:https?:\/\/)?((?:\d{1,3}\.){3}\d{1,3})(?:\/|$)/i);if(t&&t[1]){let r=t[1],n=/^\d+(\.\d+)*$/.test(r);if(n)return r}throw Error("Hatal&#305; giri&#351;: "+e)}
+function addproxy(){let e=document.getElementById("newProxyInput"),t=e.value.trim();if(t)try{let r=cleanproxyName(t);if(isDuplicateproxy(r)){e.classList.add("error-input"),e.addEventListener("animationend",()=>{e.classList.remove("error-input")},{once:!0});let n=document.querySelectorAll("li.proxy-item");n.forEach(e=>{e.textContent.includes(r)&&(e.classList.add("error-item"),e.addEventListener("animationend",()=>{e.classList.remove("error-item")},{once:!0}))})}else proxys.push({name:r,isValid:!0}),e.value="",renderproxyList(),saveproxys()}catch(i){e.classList.add("error-input"),e.addEventListener("animationend",()=>{e.classList.remove("error-input")},{once:!0})}}
+function isDuplicateproxy(e){return proxys.some(t=>t.name===e)}
+function removeproxy(e){let t=proxys.findIndex(t=>t.name===e);t>-1&&(proxys.splice(t,1),renderproxyList(),saveproxys())}
+function editproxy(e){let t=proxys.find(t=>t.name===e);if(!t)return;let r=prompt("Yeni proxy Ad&#305;:",t.name);if(!r||r.trim()===t.name)return;let n=cleanproxyName(r);if(isDuplicateproxy(n)){let i=document.querySelectorAll("li.proxy-item");i.forEach(e=>{e.textContent.includes(n)&&(e.classList.add("error-item"),e.addEventListener("animationend",()=>{e.classList.remove("error-item")},{once:!0}))});return}t.name=n,renderproxyList(),saveproxys()}
+function saveproxys(){localStorage.setItem("proxys",JSON.stringify(proxys))}
+function loadproxys(){proxys=JSON.parse(localStorage.getItem("proxys"))||[],renderproxyList()}
+function proxyList(){return JSON.parse(localStorage.getItem("proxys"))||[].filter(e=>e.isValid).map(e=>e.name).filter((e,t,r)=>r.indexOf(e)===t)}
+function listUniqueproxys(){const savedProxies = localStorage.getItem("proxys");if (!savedProxies) return [];const proxies = JSON.parse(savedProxies);return [...new Set(proxies.filter(p => p.isValid).map(p => p.name))]}
+function randomColor() {return `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`}
+
+const pastel = {
+  room: {
+    code: "",
+    id: "",
+    dil: "",
+    tema: "",
+    server: "",
+    proxyserver:"",
+    maxplayers: "",
+    players: "",
+    maxpuan: "",
+    puan: ""
+  },
+  bot: {
+    name: "pastel",
+    avatars: [0]
+  },
+  players:[],
+  sockets: []
+};
+
+const observeChanges = (obj, callback) => {
+  return new Proxy(obj, {
+    set(target, prop, value) {
+      const oldValue = target[prop];
+      const success = Reflect.set(target, prop, value);
+      callback(prop, value, oldValue);
+      return success;
+    },
+    get(target, prop) {
+      const value = Reflect.get(target, prop);
+      if (typeof value === "object" && value !== null) {
+        return observeChanges(value, callback);
+      }
+      return value;
+    }
+  });
+};
+
+const onChange = (prop, value, oldValue) => {
+  logger.success(`Degisiklik algilandi: ${prop}, Eski Deger: ${JSON.stringify(oldValue)}, Yeni Deger: ${JSON.stringify(value)}`);
+};
+
+const observedPastel = observeChanges(pastel, onChange);
+
+if (window.pastel) {
+  Object.assign(window.pastel, observedPastel);
+} else {
+  window.pastel = observedPastel;
+}
+
+var tabId = getTabId();
+
+logger.log("[TAB ID:] "+tabId);
+logger.image("https://play-lh.googleusercontent.com/tTktj2YYvcfn4OVv27uLK4lZUcr0QQWZTmdcEPeWRckUIB8z721XQ2Jz5_zuYjLMfl1V",20)
+
+
+document.addEventListener("DOMContentLoaded",()=>{
+  document.getElementById("newProxyInput").addEventListener("keydown",e=>{"Enter"===e.key&&addproxy()}),
+  document.querySelector("head > style:nth-child(3)")?.remove(),
+  loadproxys(),
+  console.log(proxyList()),
+  document.querySelector("body").removeAttribute("id")
+  setTimeout(function(){
+  document.querySelector('.loading-screen')?.remove()
+  document.querySelector('.not-loading').style.display = 'block';
+        },1200);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OYUNCU ARAMA KISMI
+// EKLENECEKLER: ARA BUTONU ILE OTOMATIK OYUNCU ARAMA VE BULUNDUGUNDA CIHAZA BILDIRIM GELMESI + O KISIYE BOT ILE MESAJ GONDERTMEK
+// SURUM: V2.0
+
+function kimnerede(){
+
+document.querySelector("body").innerHTML=`<div id="background"></div><div class="loading-screen" style="z-index: 99999999;"><div class="lds-ring"><div></div><div></div><div></div><div></div></div><p style="font-weight: bold;font-size: 20px;color: #fff;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Oyuncu Arama Ba&#351;lat&#305;l&#305;yor...</p></div><div class="not-loading" style="display:none;"><div class="search-container"><div class="language-selection"><label for="language" style="margin:5 auto;">Dil Seç:</label><select id="language"><option value="8">Türkçe</option><option value="2">English</option><option value="1">Português</option><option value="45">Indonesia</option><option value="7">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</option><option value="3">Español</option><option value="19">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</option></select></div><div class="checkbox-group"><div class="checkbox-item"><input type="checkbox" id="color-rooms"/><label for="color-rooms">Colorful rooms</label></div><div class="checkbox-item"><input type="checkbox" id="gartic-player"/><label for="gartic-player">Gartic Player</label></div><div class="checkbox-item"><input type="checkbox" id="logged-in-player"/><label for="logged-in-player">Logged-in Player</label></div></div><button class="start-button">Ba&#351;lat</button><div class="search-input-container"><input type="text" class="search-input" placeholder="Oyuncu aray&#305;n"><button class="search-button">Ara</button></div><div class="search-info"><h5 class="players-log">oyuncu: </h5><h5 class="rooms-log">odalar: </h5><h5 class="searchspeed-log">arama h&#305;z&#305;: </h5></div></div><br><div class="container"><div class="player-list"></div></div></div>`
+document.querySelector("head").innerHTML=`<style>font=Courier New]h1#title{display:none}h2#title span{display:none}div.header{display:none}li.nav_element{list-style-type:none}li.nav_element{display:none}[/font]</style><style>.loading-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh}.lds-ring{display:inline-block;position:relative;width:80px;height:80px}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:64px;height:64px;margin:8px;border:8px solid #fff;border-radius:50%;animation:1.2s cubic-bezier(.5,0,.5,1) infinite lds-ring;border-color:#fff transparent transparent}.lds-ring div:first-child{animation-delay:-.45s}.lds-ring div:nth-child(2){animation-delay:-.3s}.lds-ring div:nth-child(3){animation-delay:-.15s}@keyframes lds-ring{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.player-list,body{overflow-y:scroll}.player-card,.search-container{background-color:#fff;box-shadow:0 2px 4px rgba(0,0,0,.1)}#language,.detail-label,.player-name,.popup-close,.popup-nick,.search-info{font-weight:700}body{overflow-y:hidden;overflow-x:hidden;color:#000;font-family:Arial,sans-serif;margin:0;padding:0;flex-direction:row;background-color:#000037}#background{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-2;background-image:url("https://gartic.io/static/images/new/textura.png");filter:sepia(50%) saturate(50) hue-rotate(450deg)}.search-container{max-width:600px;margin:0 auto;padding:20px}.player-info,.search-input{flex:1}.container,.popup-popup .button{align-items:center;display:flex}.search-button{max-width:100px}.search-button:disabled{background-image:none;box-shadow:none;opacity:.1;pointer-events:none}.popup-popup .button{appearance:button;border-radius:8px;border-style:none;box-shadow:rgba(255,255,255,.26) 0 1px 2px inset;box-sizing:border-box;color:#fff;cursor:pointer;flex-direction:row;flex-shrink:0;font-family:"RM Neue",sans-serif;font-size:100%;line-height:1.15;margin:0 0 15px;padding:10px 21px;text-align:center;text-transform:none;transition:color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;user-select:none;-webkit-user-select:none;touch-action:manipulation;width:100%;justify-content:center}.popup-popup #blue{background-color:#0276ff}.popup-popup #blue:hover{background-color:#1c84ff}.popup-popup #blue:active{background-color:#006ae8}.popup-popup #red{background-color:#db1d0f}.popup-popup #red:hover{background-color:#e33e32}.popup-popup #red:active{background-color:#b0241a}.popup-popup #gold{background-color:#e3a010}.popup-popup #gold:hover{background-color:#f2b329}.popup-popup #gold:active{background-color:#e3a214}.popup-popup #emerald{background-color:#088014}.popup-popup #emerald:hover{background-color:#158520}.popup-popup #emerald:active{background-color:#0c6315}.popup-popup #gartic{background-color:#0746e6}.popup-popup #gartic:hover{background-color:#2356d9}.popup-popup #gartic:active{background-color:#0e41c4}.popup-popup #pink{background-color:#b102eb}.popup-popup #pink:hover{background-color:#b427e3}.popup-popup #pink:active{background-color:#9d0ecc}.container{margin:0 auto;max-width:100%;height:calc(100vh - 350px);justify-content:center}.player-id,.player-name{margin-bottom:5px}.checkbox-item,.player-avatar{margin-right:10px}.player-list{max-width:1200px;width:100%;max-height:100%;overflow-x:hidden;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));grid-gap:20px;padding:20px}.player-list::-webkit-scrollbar{width:8px}.player-list::-webkit-scrollbar-thumb{background-color:#888;border-radius:4px}.player-list::-webkit-scrollbar-thumb:hover{background-color:#555}.player-card{position:relative;border-radius:5px;padding:10px;display:flex;align-items:center;cursor:pointer;transition:transform .3s}.language-selection,.popup-overlay{justify-content:center;display:flex}.player-card:hover{transform:scale(1.05)}.player-avatar{width:60px;height:60px;border-radius:50%}.player-name{font-size:16px;color:#333}.player-id,.player-status{font-size:14px;color:#888}.popup-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.5);align-items:center;z-index:9999}.popup-popup{position:relative;background-color:#fff;border-radius:5px;padding:20px;max-width:300px;min-width:300px;min-height:500px;box-shadow:0 2px 8px rgba(0,0,0,.15);text-align:center}.popup-close,.win{position:absolute;transition:.2s}.popup-info,.popup-profile{margin-bottom:20px}.popup-avatar{width:120px;height:120px;border-radius:5px;margin-bottom:10px}.popup-close,.start-button{border:none;cursor:pointer}.popup-nick{font-size:20px}.popup-detail{text-align:left;margin-bottom:10px}.search-container,.win{text-align:center}.detail-value{margin-left:5px}.popup-close{top:0;right:10px;font-size:50px;text-decoration:none;color:#ccc;background:0 0}.popup-close:hover{color:#999}.language-selection{margin-top:0;font-size:20px;font-weight:700}#language{margin:10 auto;font-size:15px;height:30px;width:100px}.checkbox-group{display:flex;justify-content:center;margin-top:10px}.start-button{display:block;margin:10px auto;padding:10px 20px;background-color:#4169e1;color:#fff;border-radius:5px;font-size:16px}.search-input-container{display:flex;align-items:center;justify-content:center;margin-bottom:10px}.search-input{padding:10px;border:1px solid #ccc;border-radius:5px;font-size:16px;flex:1;max-width:100%}.search-button{padding:10px 20px;background-color:#4caf50;color:#fff;border:none;border-radius:5px;font-size:16px;cursor:pointer;margin-left:10px}.search-info{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;font-variant:small-caps;margin-top:10px;font-size:5}.search-info h5{margin:0 30px 0 0}.win{left:0;bottom:0;width:42px;height:36px;background-image:url(https://gartic.io/static/images/new/trofeu.svg);display:block;font-family:'Nunito Sans',sans-serif;font-size:12px;font-weight:800;color:#043172;background-size:cover;background-repeat:no-repeat;background-position:center}</style>`
+setTimeout(function(){document.querySelector('.loading-screen')?.remove();document.querySelector('.not-loading').style.display = 'block'},800);
+
+let odalar = 0;
+let oyuncular = 0;
+
+document.querySelectorAll(".checkbox-group input[type='checkbox']").forEach(checkbox => {checkbox.addEventListener("change", () => localStorage.setItem(checkbox.id, checkbox.checked));checkbox.checked = localStorage.getItem(checkbox.id) === "true"});
+
+
+document.querySelector("div.search-container button").onclick = () => {
+  document.querySelector("div.search-container button").disabled = true;
+        document.querySelector(".player-list").innerHTML = "";
+        odalar = 0;
+        oyuncular = 0;
+        playerSearchGO(document.getElementById("language").value);
+    };
+
+    document.querySelector(".searchspeed-log").innerHTML = `arama h&#305;z&#305;: x${listUniqueproxys().length || 1}`;
+
+
+const playersearchfilter = () => {const value = $(".search-input").val().toLowerCase();const isGarticPlayerChecked = $("#gartic-player").is(":checked");const isLoginedChecked = $("#logged-in-player").is(":checked");$(".player-card").each(function() {const imgSrc = $(this).find("img").attr("src");const isGarticPlayer = imgSrc.includes("gartic.io/");const isLoginedPlayer = !isGarticPlayer;if((isGarticPlayer&&isGarticPlayerChecked)||(isLoginedPlayer&&isLoginedChecked)){$(this).toggle($(this).text().toLowerCase().indexOf(value)>-1)}else{$(this).hide()}})}
+$("input.search-input, #gartic-player, #logged-in-player").on("keyup change", playersearchfilter);
+
+
+
+const createPopup = (oyuncu,foto,oda,oyuncusayisi) => {
+    // oda bilgileri
+    maxoyuncu = oda.limite
+    maxpuan = oda.meta
+    tema = oda.tema
+    kod = oda.codigo
+    // oyuncu bilgileri
+    nick = oyuncu.nick
+    id = oyuncu.id
+    puan = oyuncu.pontos;
+    kupa = oyuncu.vitorias;
+    platform = getSocialMedia(foto)
+    const popup = document.createElement("div");
+    popup.className = "popup-overlay";
+    popup.innerHTML = `<div class="popup-popup"><a href="#" class="popup-close" onclick="document.querySelector('.popup-overlay').remove()">×</a><div class="popup-profile"><img class="popup-avatar" src="${foto}"><div class="popup-nick">${nick}</div></div><div class="popup-info"><div class="popup-detail"><span class="detail-label">ID:</span><span class="detail-value">${id}</span></div><div class="popup-detail"><span class="detail-label">Oda:</span><span class="detail-value">${tema} ${kod.substring(3)}</span></div><div class="popup-detail"><span class="detail-label">Oyuncular:</span><span class="detail-value">${oyuncusayisi}/${maxoyuncu}</span></div>${kupa==0?``:`<div class="popup-detail"><span class="detail-label">kupa:</span><span class="detail-value">${kupa}</span></div>`}<div class="popup-detail"><span class="detail-label">Puan:</span><span class="detail-value">${puan}/${maxpuan}</span></div><div class="popup-detail"><span class="detail-label">Platform:</span><span class="detail-value">${platform}</span></div><div class="popup-buttons"><button class="button" id="blue" onclick="window.open('https://gartic.io/${kod}','_blank')">Gir</button><button class="button" id="gold" onclick="window.open('https://gartic.io/${kod}/viewer','_blank')">&#304;zle</button>${platform=="Discord"?`<button class="button" id="gartic" onclick="window.open('https://lookup.guru/${foto.split("/")[4]}','_blank')">Discord Add Friend</button>`:``}<button class="button" id="pink">Bot Gönder</button></div></div></div>`;
+    //      <button class="button" id="red">-</button>
+    //      <button class="button" id="emerald">-/button>
+    document.body.appendChild(popup);
+    document.querySelector(".popup")?0:document.body.appendChild(popup);
+
+};
+
+async function playerSearchGO(languagecode) {
+        const proxies = listUniqueproxys();
+        const proxymode = proxies.length > 0;
+        try {
+            const response = await fetch(`https://gartic.io/req/list?search=&language[]=${languagecode}`);
+            const rooms = await response.json();
+            const roomCodes = rooms.map(room => room.code);
+            const proxyToRooms = roomCodes.map((room, index) => ({
+                room: room,
+                proxy: proxymode ? proxies[index % proxies.length] : null
+            }));
+            const servers = {
+                "server07": "c",
+                "server06": "Y",
+                "server05": "U",
+                "server04": "Q",
+                "server03": "M",
+                "server02": "I",
+                "server01": "E"
+            };
+            const fetchPromises = proxyToRooms.map(async (proxy) => {
+                const code = proxy.room;
+                const response = fetch(`https://gartic.io/serverViewer?room=${code}`).then(res => res.text());
+                const url = `https://gartic.io/server?check=1&room=${code}`;
+				slicedData = ''
+
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('HTTP Hatası: ' + response.status);
+                        }
+                        return response.text(); // Veriyi metin olarak alır
+                    })
+                    .then(data => {
+                        // İstediğiniz pozisyondan sonraki veriyi alın
+                        const startIndex = 29; // 30 karakterlik önceki kısmı atla
+                        slicedData = data.slice(startIndex);
+                        console.log("Alınan Veri:", slicedData);
+                    })
+                    .catch(error => {
+                        console.error('Hata: ', error);
+                    });
+                return {
+                    response,
+                    proxy,
+                    code,
+                    slicedData
+                };
+            });
+       
+        
+
+
+        const results = await Promise.all(fetchPromises);
+
+        const websocketPromises = results.map(async (result) => {
+
+            const { response, proxy, code , slicedData} = result;
+            const data = await response;
+            const server = data.split("//")[1].split(".")[0];
+            const roomid = code.substring(2);
+            if (servers.hasOwnProperty(server)) {
+                const websocketUrl = proxymode ? `wss://${proxy.proxy}/__cpw.php?u=d3NzOi8vc2VydmVyMD${servers[server]}uZ2FydGljLmlvL3NvY2tldC5pby8/RUlPPTMmdHJhbnNwb3J0PXdlYnNvY2tldA==&o=aHR0cHM6Ly9nYXJ0aWMuaW8=` : `wss://${server}.gartic.io/socket.io/${slicedData}EIO=3&transport=websocket`;
+                const websocket = new WebSocket(websocketUrl);
+                websocket.onopen = () => websocket.send(`42[12,{"v":20000,"sala":"${roomid}"}]`);
+                return new Promise((resolve) => {
+                    websocket.onmessage = e => {
+                        try {
+                            const data = JSON.parse(e.data.slice(2));
+                            if (data[0] === 5) {
+                                const cardcolor = document.querySelector("#color-rooms")?.checked ? randomColor() : "rgb(255, 255, 255)";
+                                const playerList = document.querySelector(".player-list");
+                                const playersLog = document.querySelector(".players-log");
+                                const roomsLog = document.querySelector(".rooms-log");
+                                const fragment = document.createDocumentFragment();
+
+                                for (const player of data[5]) {
+                                    const playerCard = document.createElement("div");
+                                    const fotoURL = player.foto ?? `https://gartic.io/static/images/avatar/svg/${player.avatar}.svg`;
+                                    playerCard.className = "player-card";
+                                    playerCard.setAttribute("name", player.id);
+                                    playerCard.style.backgroundColor = cardcolor;
+                                    playerCard.addEventListener("click", () => createPopup(player, fotoURL, data[4], data[5].length));
+                                    playerCard.innerHTML = `<img class="player-avatar" src="${fotoURL}"><div class="player-info"><div class="player-name">${player.nick}</div><a href="https://gartic.io/${code}" target="_blank" class="player-id">#${code}</a><div class="player-status"><span class="status" data-status="">${getSocialMedia(fotoURL)}</span></div></div>${player.vitorias === 0 ? `` : `<span class="win">${player.vitorias}</span>`}`;
+                                    fragment.appendChild(playerCard);
+                                    playersLog.innerText = `oyuncular: ${++oyuncular}`;
+                                }
+                                playerList.appendChild(fragment);
+                                roomsLog.innerText = `odalar: ${++odalar}`;
+                                websocket.close();
+                                playersearchfilter();
+                            }
+                        } catch (error) {}
+                    };
+                });
+            } else {
+                throw new Error("Matching not found");
+            }
+        });
+        await Promise.all(websocketPromises);
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+const getSocialMedia = (url) => {
+    const socialMedia = (url.match(/discordapp|redditmedia|googleusercontent|twimg\.com|gartic\.io|facebook|fbsbx\.com|userapi\.com/i)||[''])[0].toLowerCase();
+    const mediaMap = {
+        "discordapp": "Discord",
+        "redditmedia": "Reddit",
+        "googleusercontent": "Google",
+        "twimg.com": "Twitter",
+        "facebook": "Facebook",
+        "fbsbx.com": "Facebook",
+        "userapi.com": "Vkontakte",
+        "gartic.io": "Gartic",
+    };
+    return mediaMap[socialMedia] || null;
+};
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// BOT GONDERME KISMI
+// EKLENECEKLER: JAVASCRIPT KODLARI EN BASTAN DUZENLI BIR SEKILDE YAZILACAK + MESAJ SPAMLAMA SISTEMI EKLENECEK 
+//  + DAHA MODERN JAVASCRIPT KULLANILACAK KODALR OLABILDIGINCE SADELESTIRILECEK VE ANLASILIR HALE GETIRILECEK
+//  + HTML CSS TEKRARDAN GOZDEN GECIRILECEK
+// SURUM: BETA
+
+
+var avates,wesd;
+const toggleDropdown = (event) => {
+  var selectItems = event.currentTarget.parentNode.querySelector(".select-items");
+  selectItems.classList.toggle("show");
+}
+
+const toggleSelection = (event) => {
+  var selectedItem = event.currentTarget;
+  selectedItem.classList.toggle("selected");
+  var selectItems = document.querySelectorAll(".select-item.selected");
+  var selectedValues = Array.from(selectItems).map(function(item) {
+    return parseInt(item.querySelector('img').alt.trim());
+  });
+  pastel.bot.avatars = selectedValues;
+}
+function botgonder(){
+
+  document.querySelector("body").innerHTML=`
+<div id="background"></div>
+<div class="loading-screen" style="z-index: 99999999;">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    <p style="font-weight: bold;font-size: 20px;color: #fff;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bot (Beta) Sistemi Ba&#351;lat&#305;l&#305;yor...</p>
+  </div>
+<div class="not-loading" style="display:none;">
+  <div class="container">
+    <h1>BOT Kontrol Paneli</h1>
+
+    <div class="form-group" id="urls">
+      <label for="url">URL:</label>
+      <input type="text" id="url">
+      <h6>URL girin</h6>
+    </div>
+    <button class="mmm" style="display:none;"></button>
+
+    <div class="bot-settings" style="display:none">
+
+    <div class="form-group" id="usernames">
+      <label for="username">Bot Name:</label>
+      <input type="text" id="username">
+      <h6>Kullan&#305;c&#305; ad&#305; girin</h6>
+    </div>
+
+    <div class="form-group" id="avatars" name="aver">
+        <div class="avats">
+            <label for="avatar">Avatar:</label>
+            <div class="custom-select">
+              <div class="select-selected" onclick="toggleDropdown(event)">Avatar seç</div>
+              <div class="select-items">
+                <div class="select-item selected" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/0.svg" alt="0">
+                        Avatar 0
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/1.svg" alt="1">
+                        Avatar 1
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/2.svg" alt="2">
+                        Avatar 2
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/3.svg" alt="3">
+                        Avatar 3
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/4.svg" alt="4">
+                        Avatar 4
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/5.svg" alt="5">
+                        Avatar 5
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/6.svg" alt="6">
+                        Avatar 6
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/7.svg" alt="7">
+                        Avatar 7
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/8.svg" alt="8">
+                        Avatar 8
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/9.svg" alt="9">
+                        Avatar 9
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/10.svg" alt="10">
+                        Avatar 10
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/11.svg" alt="11">
+                        Avatar 11
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/12.svg" alt="12">
+                        Avatar 12
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/13.svg" alt="13">
+                        Avatar 13
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/14.svg" alt="14">
+                        Avatar 14
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/15.svg" alt="15">
+                        Avatar 15
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/16.svg" alt="16">
+                        Avatar 16
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/17.svg" alt="17">
+                        Avatar 17
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/18.svg" alt="18">
+                        Avatar 18
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/19.svg" alt="19">
+                        Avatar 19
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/20.svg" alt="20">
+                        Avatar 20
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/21.svg" alt="21">
+                        Avatar 21
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/22.svg" alt="22">
+                        Avatar 22
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/23.svg" alt="23">
+                        Avatar 23
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/24.svg" alt="24">
+                        Avatar 24
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/25.svg" alt="25">
+                        Avatar 25
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/26.svg" alt="26">
+                        Avatar 26
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/27.svg" alt="27">
+                        Avatar 27
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/28.svg" alt="28">
+                        Avatar 28
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/29.svg" alt="29">
+                        Avatar 29
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/30.svg" alt="30">
+                        Avatar 30
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/31.svg" alt="31">
+                        Avatar 31
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/32.svg" alt="32">
+                        Avatar 32
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/33.svg" alt="33">
+                        Avatar 33
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/34.svg" alt="34">
+                        Avatar 34
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/35.svg" alt="35">
+                        Avatar 35
+                    </div>
+                    <div class="select-item" onclick="toggleSelection(event)">
+                        <img src="https://gartic.io/static/images/avatar/svg/36.svg" alt="36">
+                        Avatar 36
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;margin-top:-10px">
+            <h6>Avatar seçili</h6>
+        </div>
+    </div>
+
+    <div class="form-group" id="bot-counts" style="display: flex; flex-direction: column;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <label for="bot-count">Bot Say&#305;s&#305;:</label>
+            <div class="number-input" style="width: 60px;padding: 5px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;" >
+                <input type="number" id="bot-count" min="1" max="" class="input-field" style="border:none;outline:none;width:100%;font-size:16px;padding: 5px;">
+            </div>
+        </div>
+        <div style="display: flex;margin-top:-10px">
+            <h6>Bot say&#305;s&#305; girin</h6>
+        </div>
+    </div>
+    
+    
+    
+    <button id="connectButton" class="button">Botlar&#305; Gönder</button>
+    <button id="disconnectButton" class="button" disabled>Botlar&#305; Ç&#305;kar</button>
+    <div id="status"></div>
+</div>
+<div class="players-settings" style="display:none">
+    <h2 style="margin-top: 40px;">Oyuncu Listesi</h2>
+    <ul class="player-list">
+
+    </ul>
+</div>
+  </div>
+</div>`
+
+
+document.querySelector("head").innerHTML=`<style>.player-list,.select-items{user-select:none;overflow-y:auto;overflow-x:hidden}body{font-family:Arial,sans-serif;margin:0;padding:0;overflow-y:scroll;flex-direction:row;background-color:#000037}#background{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-2;background-image:url("https://gartic.io/static/images/new/textura.png");filter:sepia(50%) saturate(50) hue-rotate(450deg)}.avats{display:flex;align-items:center;gap:10px}.loading-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh}[name="aver"]{display:flex;flex-direction:column}.button,.lds-ring{display:inline-block}.lds-ring{position:relative;width:80px;height:80px}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:64px;height:64px;margin:8px;border:8px solid #fff;border-radius:50%;animation:1.2s cubic-bezier(.5,0,.5,1) infinite lds-ring;border-color:#fff transparent transparent}.lds-ring div:first-child{animation-delay:-.45s}.lds-ring div:nth-child(2){animation-delay:-.3s}.lds-ring div:nth-child(3){animation-delay:-.15s}@keyframes lds-ring{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.container{max-width:500px;margin:0 auto;padding:20px;background-color:#f7f7f7;border-radius:5px;box-shadow:0 0 10px rgba(0,0,0,.1)}.button{padding:8px 16px;background-color:#4caf50;color:#fff;border:none;border-radius:4px;cursor:pointer}.button:hover,.player-list .vote-button:hover,.submit-button:hover{background-color:#45a049}.button:disabled{background-color:#ccc;cursor:not-allowed}h1{user-select:none;text-align:center;margin-bottom:30px;color:#333}.form-group{margin-bottom:20px}.form-group label{user-select:none;display:block;margin-bottom:5px;font-weight:700;color:#666}.form-group input[type=number],.form-group input[type=password],.form-group input[type=text]{width:100%;padding:10px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box}.form-group h6{user-select:none;margin:5px 0;font-size:12px;color:#999}.player-list{list-style-type:none;padding:0;margin:0;max-height:480px}.player-list li{display:flex;align-items:center;margin-bottom:10px;border:1px solid #eee;padding:10px;border-radius:4px}.player-list img{width:50px;height:50px;border-radius:50%;margin-right:10px}.player-list .player-name{flex-grow:1;font-weight:700;color:#333}.player-list .vote-button,.select-items div.selected,.submit-button{background-color:#4caf50;color:#fff}.player-list .vote-button{padding:5px 10px;border:none;border-radius:4px;cursor:pointer;transition:background-color .3s}.submit-button{display:block;width:100%;padding:10px;border:none;border-radius:4px;cursor:pointer;transition:background-color .3s}::-webkit-scrollbar{width:8px}::-webkit-scrollbar-thumb{background-color:#888;border-radius:4px}.custom-select{position:relative;width:200px;margin-bottom:10px}.select-selected{user-select:none;background-color:#eee;padding:5px;cursor:pointer}.select-selected:after{position:absolute;content:"";top:50%;right:10px;transform:translateY(-50%);border:6px solid transparent;border-color:#888 transparent transparent}.select-items{position:absolute;background-color:#f9f9f9;min-width:200px;max-height:230px;box-shadow:0 8px 16px 0 rgba(0,0,0,.2);display:none}.select-items.show{display:block}.select-items div{padding:10px;cursor:pointer}.select-items div.selected::before{content:"\u2714";margin-right:5px}.select-items div:hover{background-color:#ddd}.select-items div.selected:hover{background-color:#449e48}.select-items div img{width:30px;height:30px;margin-right:5px;vertical-align:middle}</style>
+`
+
+setTimeout(function(){
+  document.querySelector('.loading-screen')?.remove()
+  document.querySelector('.not-loading').style.display = 'block';
+        },800);
+
+    var url = document.querySelector('div[id="urls"]');
+    var url_input = url.querySelector('input');
+    var url_h6 = url.querySelector('h6');
+    var botsettings = document.querySelector('div[class="bot-settings"]');
+    var names = document.querySelector('div[id="usernames"]');
+    var names_input = names.querySelector('input');
+    var names_h6 = names.querySelector('h6')
+    var avatar = document.querySelector('div[id="avatars"]');
+    var avatar_input = avatar.querySelector('input');
+    var avatar_h6 = avatar.querySelector('h6');
+    var botcount = document.querySelector('div[id="bot-counts"]');
+    var botcount_input = botcount.querySelector('input');
+    var botcount_h6 = botcount.querySelector('h6');
+    var playerssettings = document.querySelector('div[class="players-settings"]');
+    var playerlist = document.querySelector('ul[class="player-list"]');
+    avates = document.querySelector(".select-items")
+    wesd = document.querySelector(".select-selected")
+    wesd.onclick = toggleDropdown;
+
+document.addEventListener('click',e =>{
+    if(e.composedPath().includes(avates)||e.composedPath().includes(wesd)){}
+    else{
+        avates.classList.remove("show");
+    }
+})
+
+
+const gizlegoster = dom => {
+  dom.style.display = dom.style.display === "none" ? "block" : "none";
+}
+const setStatus = (dom,text,renk) => {
+    dom.style.color = renk
+    dom.innerHTML = text
+}
+
+function getUniqueProxies() {
+let e=localStorage.getItem("proxys");if(!e)return[];let t=JSON.parse(e);return[...new Set(t.filter(e=>e.isValid).map(e=>e.name))]
+}
+
+const validateURL = () => {
+  const regex = /^https?:\/\/gartic\.io\/[a-zA-Z0-9]+$/;
+  const valu = url_input.value;
+  const parts = valu.split('/');
+
+  if (parts.length >= 4 && regex.test(valu)) {
+    const iframe = document.createElement('iframe');
+    iframe.src = valu + "?botcheckroom=pastel"
+    iframe.id = "checkroom"
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe)
+    setStatus(url_h6,"Oda kontrol ediliyor...","orange")
+    names_input.value=pastel.bot.name
+  } else {
+    setStatus(url_h6,"Gecerli URL degil.","red")
+  }
+};
+
+
+url_input.oninput = validateURL;
+
+
+
+
+const validateNick = () => {
+  const value = names_input.value;
+  const regex = /(?![^a-zA-Z]+)(?:A(?:(?:t(?:a(?:(?:t[uü]rk)|(?:r[kk])))|(?:(?:l(?:(?:l(?:ah)?)|(?:lah)))|(?:t(?:a))))|l(?:l(?:ah)?)|(?:t(?:r[kk]))|s[i&#305;]k|REDbot)|i[l&#305;]ah|s[i&#305;]k|a[l&#305;]ah|REDbot)/i;
+  if (regex.test(value)) {
+    setStatus(names_h6, "Bot ad&#305; uygun.", "green");
+    pastel.bot.name = "pastel";
+  } else {
+    setStatus(names_h6, "Bot ad&#305; uygun.", "green");
+    pastel.bot.name = names_input.value;
+  }
+};
+
+
+
+
+
+names_input.oninput = validateNick;
+
+
+
+
+
+
+
+
+document.querySelector("button.mmm").addEventListener("click", function() {
+  const maxPlayers = pastel.room.maxplayers;
+  const proxyCount = getUniqueProxies().length;
+  let validCount;
+  if (proxyCount <= maxPlayers) {
+    validCount = proxyCount;
+  } else {
+    validCount = maxPlayers;
+  }
+  setStatus(botcount_h6, `Min(1) - Max(${validCount})`);
+  botcount_input.addEventListener('input', function() {
+    let enteredCount = parseInt(botcount_input.value);
+    if (enteredCount > validCount) {
+      botcount_input.value = validCount;
+    }
+  });
+  botcount_input.value = 1;
+  botcount_input.max = validCount.toString();
+  url_input.disabled = true;
+  setStatus(names_h6, "Bot ad&#305; uygun.", "green");
+  setStatus(url_h6, "Oda Ayarland&#305;.", "green");
+  gizlegoster(botsettings);
+  connectViewer();
+});
+
+
+/*
+
+document.querySelector("button.mmm").addEventListener("click", function() {
+  const maxPlayers = pastel.room.maxplayers;
+  const proxyCount = getUniqueProxies().length;
+  let validCount;
+  if (proxyCount <= maxPlayers) {
+    validCount = proxyCount;
+  } else {
+    validCount = maxPlayers;
+  }
+  setStatus(botcount_h6, `Min(1) - Max(${validCount})`);
+  botcount_input.addEventListener('input', function() {
+    if (botcount_input.value > validCount) {
+      botcount_input.value = validCount;
+    }
+  });
+  botcount_input.value = 1;
+  botcount_input.max = validCount.toString();
+  url_input.disabled = true;
+  setStatus(names_h6, "Bot ad&#305; uygun.", "green");
+  setStatus(url_h6, "Oda Ayarland&#305;.", "green");
+  gizlegoster(botsettings);
+  connectViewer();
+});*/
+
+
+
+
+
+var viewermod = true
+let baglanti = false;
+let client;
+
+  const deConnect = (v) => {
+  baglanti=true
+  if (pastel.sockets.length > 0) {
+  for (const { socket, botid } of pastel.sockets) {
+    try {
+      v==1&&socket.send(`42[11,"${botid}","byee!"]`);
+      socket.send(`41`);
+      socket.close();
+    } catch (error) {}
+  }
+  pastel.sockets=[]
+}
+}
+
+const createPlayerElement = (player) => {
+        if (!document.querySelector(`li[id="${player.id}"]`)) {
+          const playerLi = document.createElement("li");
+          playerLi.id = player.id;
+          playerLi.innerHTML = `
+		<img src="${player.foto ?? `https://gartic.io/static/images/avatar/svg/${player.avatar}.svg`}">
+		<span class="player-name">${player.nick}</span>
+		<button class="vote-button">Oy Ver</button>
+     `;
+          const voteButton = playerLi.querySelector(".vote-button");
+          voteButton.addEventListener("click", () => {
+            document.querySelectorAll('[class="vote-button"]').forEach(oyver=>{
+              oyver.disabled=true;
+              setTimeout(function(){oyver.disabled=false;},1500)
+            })
+            pastel.sockets.forEach(({ socket, botid }) => socket.send(`42[45, ${botid}, ["${player.id}", true]]`));
+          });
+          playerlist.appendChild(playerLi);
+          pastel.players.push({
+                    id: player.id,
+                    name: player.nick,
+                    avatar: player.foto ?? `https://gartic.io/static/images/avatar/svg/${player.avatar}.svg`
+                  })
+        }
+      };
+
+
+
+setInterval(function () {
+if (pastel.sockets.length > 0) {
+  for (const { socket, botid } of pastel.sockets) {
+    try {
+      socket.send(`42[42, ${botid}]`);
+    } catch (error) {}
+  }
+}
+}, 5000);
+
+document.getElementById("connectButton").addEventListener("click", async () => {
+  if (pastel.room.proxyserver && pastel.bot.name && pastel.bot.avatars) {
+    const proxies = getUniqueProxies().slice(0, botcount_input.value);
+    baglanti=false;
+    document.getElementById("connectButton").disabled=true;
+    document.getElementById("disconnectButton").disabled=false;
+    const websocketUrls = proxies.map((proxy) => `wss://${proxy}/__cpw.php?u=d3NzOi8vc2VydmVyMD${pastel.room.proxyserver}uZ2FydGljLmlvL3NvY2tldC5pby8/RUlPPTMmdHJhbnNwb3J0PXdlYnNvY2tldA==&o=aHR0cHM6Ly9nYXJ0aWMuaW8=`);
+
+    await Promise.all(websocketUrls.map(async (websocketUrl) => {
+      const nick = pastel.bot.name + Math.floor(Math.random() * 9999);
+      const avatar = pastel.bot.avatars[Math.floor(Math.random() * pastel.bot.avatars.length)];
+      client = connectBot(nick, avatar, websocketUrl);
+    }));
+  } else {
+    alert("Bir hata oldu.");
+  }
+});
+
+document.getElementById("disconnectButton").addEventListener("click", () => {
+  deConnect(0)
+  document.getElementById("disconnectButton").disabled=true;
+  document.getElementById("connectButton").disabled=false;
+    });
+
+
+     const connectBot = (nick,avatar,websocketUrl) =>{
+      let antiafk = true;
+
+      const disconnectBot = () => {
+        try {
+          baglanti=true;
+          socket.close();
+        } catch (error) {}
+        return this;
+      };
+
+      const connectWebSocketBot = (nick,avatar,websocketUrl) => {
+        if (baglanti) return;
+        const socket = new WebSocket(websocketUrl);
+
+        socket.onopen = () => {
+            if (baglanti) return socket.close();
+            setTimeout(function(){
+            socket.send(`42[3,{"v":20000,"nick":"${nick}","avatar":"${avatar}","sala":"${pastel.room.id}"}]`); 
+          },100);
+        }
+
+        socket.onmessage = e => {
+                if (baglanti) return socket.close();
+                try {
+                    const data = JSON.parse(e.data.slice(2));
+                    switch(data[0]){
+                        case 5:
+                            room = data[2];
+                            pastel.sockets.push({ socket, botid: data[2] });
+                            socket.send(`42[46,${room[2]}]`);
+                            break;
+                            case 6:
+                if(data[1]==3){
+                  if (baglanti) return;
+                  socket.send(`41`),
+                  setTimeout(()=>{
+                  if (baglanti) return;
+                  connectWebSocketBot(nick,avatar,websocketUrl)
+                },1500)}
+                break;
+    
+                    }
+    
+                } catch (error) {}
+            };
+        socket.onclose = (event) => {
+          if (antiafk) clearInterval(antiafk);
+        };
+        
+        return this;
+
+      };
+      connectWebSocketBot(nick,avatar,websocketUrl);
+      return {
+        disconnectBot,
+      };
+    }
+
+
+
+
+
+
+    
+    const connectViewer = () => {
+      let antiafk = true;
+
+      const getPlayerById = (playerId) => {
+        return pastel.players.find(player => player.id === playerId);
+      }
+
+      const disconnectViewer = () => {
+        try {
+          viewermod=true;
+          socket.close();
+        } catch (error) {}
+        return this;
+      };
+
+      const connectWebSocketViewer = () => {
+        if (baglanti) return;
+        socket = new WebSocket(`wss://${pastel.room.server}.gartic.io/socket.io/?EIO=3&transport=websocket`);
+        socket.onopen = () => {
+          if (baglanti) return socket.close();
+          socket.send(`42[12,{"v":20000,"sala":"${pastel.room.id}"}]`);
+        };
+        socket.onmessage = e => {
+          if (baglanti) return socket.close();
+          try {
+            const data = JSON.parse(e.data.slice(2));
+            switch (data[0]) {
+                case 5:
+                socket.send(`42[46,0]`);
+                data[5].forEach(player => {
+                  createPlayerElement(player);
+
+                });
+                antiafk = setInterval(() => (socket.send(`2`)), 10000);
+                playerssettings.style.display = "block";
+                break;
+                case 11:
+                 if (data[2].indexOf("&#6069;") !== -1) { deConnect(1) }
+                break;
+              case 23:
+                  createPlayerElement(data[1])
+                  if (data[1].nick.indexOf("REDbot") !== -1 && data[1].avatar === 1) { deConnect(1) }
+                break;
+
+              case 24:
+                document.querySelector(`li[id="${data[1]}"]`)?.remove()
+                const index = pastel.players.findIndex(player => player.id === data[1]);
+                if (index !== -1) {
+                  pastel.players.splice(index, 1);
+                  console.log(`Player <${data[1]}> removed successfully.`);
+                } else {
+                  console.log(`Player <${data[1]}> not found.`);
+                }
+                break;
+            }
+          } catch (error) {}
+        };
+
+        socket.onclose = (event) => {
+           playerlist.innerHTML = "";
+           pastel.players = []
+          if (antiafk) clearInterval(antiafk);
+          connectViewer()
+        };
+        
+        return this;
+      };
+      connectWebSocketViewer();
+      return {
+        disconnectViewer,
+      };
+    }
+}
+
+    // 17:30
+        </script>
+</body></head>
+</html></div></div></div></body>
+</html>
+<script></script>
