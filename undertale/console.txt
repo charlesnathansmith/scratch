@@ -1,0 +1,340 @@
+index.htm:419 Alınan Veri: ?c=895598
+index.htm:419 Alınan Veri: ?c=364932
+index.htm:419 Alınan Veri: ?c=469602
+index.htm:419 Alınan Veri: ?c=806104
+index.htm:419 Alınan Veri: ?c=876602
+index.htm:419 Alınan Veri: ?c=583576
+index.htm:419 Alınan Veri: ?c=889436
+index.htm:419 Alınan Veri: ?c=260457
+index.htm:419 Alınan Veri: ?c=287360
+index.htm:419 Alınan Veri: ?c=725614
+index.htm:419 Alınan Veri: ?c=264639
+index.htm:419 Alınan Veri: ?c=568205
+index.htm:419 Alınan Veri: ?c=866824
+index.htm:419 Alınan Veri: ?c=574577
+index.htm:419 Alınan Veri: ?c=488260
+index.htm:419 Alınan Veri: ?c=320500
+index.htm:419 Alınan Veri: ?c=849951
+index.htm:419 Alınan Veri: ?c=487292
+index.htm:419 Alınan Veri: ?c=807107
+index.htm:419 Alınan Veri: ?c=789853
+index.htm:419 Alınan Veri: ?c=567917
+index.htm:419 Alınan Veri: ?c=313007
+index.htm:419 Alınan Veri: ?c=450984
+index.htm:419 Alınan Veri: ?c=967724
+index.htm:419 Alınan Veri: ?c=560304
+index.htm:419 Alınan Veri: ?c=287779
+index.htm:419 Alınan Veri: ?c=720977
+index.htm:419 Alınan Veri: ?c=158440
+index.htm:419 Alınan Veri: ?c=525563
+index.htm:419 Alınan Veri: ?c=913289
+index.htm:419 Alınan Veri: ?c=348113
+index.htm:419 Alınan Veri: ?c=930679
+index.htm:419 Alınan Veri: ?c=565929
+index.htm:419 Alınan Veri: ?c=931895
+index.htm:419 Alınan Veri: ?c=840393
+index.htm:419 Alınan Veri: ?c=549699
+index.htm:419 Alınan Veri: ?c=706597
+index.htm:419 Alınan Veri: ?c=496937
+index.htm:419 Alınan Veri: ?c=607743
+index.htm:419 Alınan Veri: ?c=182350
+index.htm:419 Alınan Veri: ?c=742817
+index.htm:419 Alınan Veri: ?c=724414
+index.htm:419 Alınan Veri: ?c=914352
+index.htm:419 Alınan Veri: ?c=372038
+index.htm:419 Alınan Veri: ?c=131862
+index.htm:419 Alınan Veri: ?c=617628
+index.htm:419 Alınan Veri: ?c=373399
+index.htm:419 Alınan Veri: ?c=135363
+index.htm:419 Alınan Veri: ?c=596701
+index.htm:419 Alınan Veri: ?c=338365
+index.htm:419 Alınan Veri: ?c=179309
+index.htm:419 Alınan Veri: ?c=474732
+index.htm:419 Alınan Veri: ?c=978995
+index.htm:419 Alınan Veri: ?c=686440
+index.htm:419 Alınan Veri: ?c=395205
+index.htm:419 Alınan Veri: ?c=936152
+index.htm:419 Alınan Veri: ?c=974860
+index.htm:419 Alınan Veri: ?c=677143
+index.htm:419 Alınan Veri: ?c=388848
+index.htm:419 Alınan Veri: ?c=877345
+index.htm:419 Alınan Veri: ?c=609726
+index.htm:419 Alınan Veri: ?c=430625
+index.htm:419 Alınan Veri: ?c=563855
+index.htm:419 Alınan Veri: ?c=608333
+index.htm:419 Alınan Veri: ?c=911111
+index.htm:419 Alınan Veri: ?c=698204
+index.htm:419 Alınan Veri: ?c=381011
+index.htm:419 Alınan Veri: ?c=305366
+index.htm:419 Alınan Veri: ?c=829502
+index.htm:419 Alınan Veri: ?c=185242
+index.htm:419 Alınan Veri: ?c=861895
+index.htm:419 Alınan Veri: ?c=962473
+index.htm:419 Alınan Veri: ?c=686112
+index.htm:419 Alınan Veri: ?c=384664
+index.htm:419 Alınan Veri: ?c=860069
+index.htm:419 Alınan Veri: ?c=492264
+index.htm:419 Alınan Veri: ?c=572114
+index.htm:419 Alınan Veri: ?c=217244
+index.htm:419 Alınan Veri: ?c=330877
+index.htm:419 Alınan Veri: ?c=917201
+index.htm:419 Alınan Veri: ?c=442364
+index.htm:419 Alınan Veri: ?c=391781
+index.htm:419 Alınan Veri: ?c=521557
+index.htm:419 Alınan Veri: ?c=303409
+index.htm:419 Alınan Veri: ?c=790647
+index.htm:419 Alınan Veri: ?c=761890
+index.htm:419 Alınan Veri: ?c=465089
+index.htm:419 Alınan Veri: ?c=423524
+index.htm:419 Alınan Veri: ?c=502566
+index.htm:419 Alınan Veri: ?c=443485
+index.htm:419 Alınan Veri: ?c=895995
+index.htm:419 Alınan Veri: ?c=554348
+index.htm:419 Alınan Veri: ?c=158002
+index.htm:419 Alınan Veri: ?c=946513
+index.htm:419 Alınan Veri: ?c=890175
+index.htm:419 Alınan Veri: ?c=662162
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server03.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server03.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server03.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+translate.google.com/gen204?nca=te_li&client=te_lib&logld=vTE_20231015:1     GET file://translate.google.com/gen204?nca=te_li&client=te_lib&logld=vTE_20231015 net::ERR_FILE_NOT_FOUND
+Image (async)
+nn @ VM126:249
+eval @ VM126:513
+eval @ VM126:517
+xhr.onreadystatechange @ m=el_conf:430
+XMLHttpRequest.send (async)
+onLoadJavascript @ m=el_conf:432
+(anonymous) @ m=el_conf:640
+(anonymous) @ m=el_conf:641
+(anonymous) @ m=el_conf:642
+Show 5 more frames
+Show less
+translate.google.com/gen204?sl=tr&tl=en&textlen=13&ttt=199&ttl=35&ttf=98&sr=1&nca=te_time&client=te_lib&logld=vTE_20231015:1     GET file://translate.google.com/gen204?sl=tr&tl=en&textlen=13&ttt=199&ttl=35&ttf=98&sr=1&nca=te_time&client=te_lib&logld=vTE_20231015 net::ERR_FILE_NOT_FOUND
+Image (async)
+nn @ VM126:249
+_.l.fk @ VM126:449
+_.l.zg @ VM126:437
+_.l.Zg @ VM126:440
+Yw.M @ VM126:401
+Ww.s @ VM126:398
+setTimeout (async)
+Xw @ VM126:397
+Ww.add @ VM126:397
+Yw.B @ VM126:400
+b @ VM126:420
+wx.s @ VM126:410
+(anonymous) @ m=el_conf:496
+eval @ VM126:414
+Nk @ VM126:44
+Pk.next @ VM126:45
+b @ VM126:45
+Promise.then (async)
+f @ VM126:45
+eval @ VM126:45
+Qk @ VM126:45
+_.Rk @ VM126:45
+Nx @ VM126:413
+eval @ VM126:420
+xx @ VM126:410
+Wx.translate @ VM126:420
+_.l.Ij @ VM126:433
+Yw.M @ VM126:401
+Ww.s @ VM126:398
+setTimeout (async)
+Xw @ VM126:397
+Ww.add @ VM126:397
+Yw.B @ VM126:400
+Wx.V @ VM126:418
+Ox.h @ VM126:414
+Show 1 more frame
+Show less
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server05.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
+index.htm:445 WebSocket connection to 'wss://server01.gartic.io/socket.io/EIO=3&transport=websocket' failed: 
+(anonymous) @ index.htm:445
