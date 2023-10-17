@@ -1,0 +1,42 @@
+<script>
+function process_room(room_code, room_server, c)
+{
+	console.log("Room code: ", room_code);
+	console.log("Room server:", room_server);
+	console.log("c:", c);
+}
+
+async function get_room_info(room_code, process_room_callback)
+{
+	const roomserv_response = await fetch(`https://gartic.io/serverViewer?room=${room_code}`);
+	const room_server = await roomserv_response.text();
+
+	const c_response = await fetch(`https://gartic.io/server?check=1&room=${room_code}`);
+	const c_text = await c_response.text();
+		
+	c = c_text.substring(c_text.search("c=") + 2);
+	
+	process_room_callback(room_code, room_server, c);
+}
+
+async function get_all_rooms(process_room_callback)
+{
+	const roomlist_response = await fetch(`https://gartic.io/req/list?search=`);
+    const rooms = await roomlist_response.json();
+    const roomCodes = rooms.map(room => room.code);
+
+	console.log("Processing rooms...");
+
+	let promises = [];
+
+	for (i = 0; i < roomCodes.length; i++)
+	{
+		promises.push(get_room_info(roomCodes[i], process_room_callback));
+	}
+	
+	await Promise.all(promises);
+	console.log("Done.");
+}
+
+const a = get_all_rooms(process_room);
+</script>
