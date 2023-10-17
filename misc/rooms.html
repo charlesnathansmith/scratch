@@ -21,7 +21,7 @@ async function get_room_info(room_code, process_room_callback)
 
 async function get_all_rooms(process_room_callback)
 {
-	const roomlist_response = await fetch(`https://gartic.io/req/list?search=`);
+    const roomlist_response = await fetch(`https://gartic.io/req/list?search=`);
     const rooms = await roomlist_response.json();
     const roomCodes = rooms.map(room => room.code);
 
